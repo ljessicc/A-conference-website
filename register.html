@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+
+    <title>Register</title>
+</head>
+
+<body>
+    <header class="primary-header container group">
+        <nav class="nav primary-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <!--
+        -->
+                <li><a href="speakers.html">Speakers</a></li>
+                <!--
+        -->
+                <li><a href="venue.html">Venue</a></li>
+                <!--
+        -->
+                <li><a href="schedule.html">Schedule</a></li>
+                <!--
+        -->
+                <li><a class="active" href="register.html">Register</a></li>
+            </ul>
+        </nav>
+      </header>
+     <!----------------------registration form------------> 
+    <section class="row">
+      <div class="grid">
+            <div class="registration-background">
+          <section class="col-2-3">
+           <h2>Purchase a Conference Pass</h2>
+           <h5>FCFA5000 per pass </h5>
+
+           <p>Purchase a Styles Conference pass because Lorem ipsum 
+            dolor sit amet consectetur adipisicing elit.Deleniti harum
+            temporibus debitis atque amet excepturi consequatur recusandae 
+           consequuntur expedita totam a, accusamus quae repellendus cumque 
+            perferendis, voluptas illo unde aperiam!</p>
+
+            <h4>Why Attend?</h4>
+
+            <ul class="why-attend">
+              <li>Top class speakers</li>
+              <li>Informative</li>
+              <li>Adds to your CV</li>
+              <li>Meet potential employers</li>
+            </ul>
+          </section>
+          
+          <form action="#" class="col-1-3" method="POST">
+            <fieldset class="register-group">
+              <label>
+                <input type="text" name="name" placeholder="Full Name" required>
+              </label>
+
+              <label>
+                <input type="email" name="email" placeholder="Email adress" required>
+              </label>
+
+              <label>
+                Number of passes
+                <select name="quantity" required>
+                  <option value="1" selected>1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </label>
+
+              <label>
+                comments
+                <textarea name="comments"></textarea>
+              </label>
+            </fieldset>
+            
+            <input class="btn btn-default" type="submit" value="submit" value="Purchase">
+          </form>
+      </div>
+
+   <aside class="aside-login">
+    <Form action="login" method="POST">
+      <fieldset class="login-info">
+        <h4>Login if you have already registered!</h4>
+          <label>
+             <h4> Username</h4>
+              <input type="text" placeholder="Enter username...." name="Username" required>
+          </label>
+          <label>
+             <h4> Password</h4>
+              <input type="password" placeholder="Enter password...." name="password" required>
+          </label>
+      </fieldset>
+      <fieldset class="login-action">
+          <input class="btn" type="submit" name="submit" value="Login">
+           <label>
+               <input type="checkbox" name="remember">Stay Logged in
+           </label>
+      </fieldset>
+  </Form>
+   </aside>
+   
+  </section>
+   </div>
+     <!----------------------footer section------------>
+    <footer class="primary-footer container group">
+
+        <nav class="nav primary-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li><!--
+          --><li><a href="speakers.html">Speakers</a></li><!--
+          --><li><a href="venue.html">Venue</a></li><!--
+          --><li><a href="schedule.html">Schedule</a></li><!--
+          --><li><a href="register.html">Register</a></li>
+        </ul>
+        </nav>
+        <small>&copy; Styles Conference</small>
+    </footer>
+</body>
+
+</html>
